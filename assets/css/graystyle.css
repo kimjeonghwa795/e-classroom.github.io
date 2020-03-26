@@ -1,0 +1,175 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    background: #282625 url(../../assets/images/bg.png) repeat-x;
+    color: #111;
+}
+
+p {
+    font-size: 18px;
+    color: #656565;
+    margin-bottom: 22px;
+}
+
+ul {
+    font-size: 18px;
+    color: #656565;
+    margin-bottom: 22px;
+}
+
+h1, h2, h3, h4 {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.header {
+    background: #222;
+    padding: 15px;
+    border-top: 6px solid black;
+    margin-top: 20px;
+}
+
+    .header h1 {
+        color: white;
+        text-align: center;
+        font-size: 31px;
+        margin: 0px;
+        font-weight: 800;
+    }
+
+.content {
+    background: #eeeeee;
+    padding: 20px 60px;
+}
+
+.content-details {
+    background: white;
+    padding: 30px 30px;
+}
+
+.fr-div{
+    height:42px
+}
+
+.discount-btn {
+    font-size: 19px;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+.contact-btn {
+    font-size: 19px;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+.my-list {
+    list-style: none;
+    padding-left: 0px;
+    position: relative;
+}
+
+
+
+    .my-list li {
+        margin-bottom: 15px;
+        padding-left: 40px;
+        position: relative;
+    }
+
+    .my-list i {
+        position: absolute;
+        left: 0px;
+        top: 4px;
+    }
+
+.small-text {
+    font-size: 15px;
+}
+
+.title-head {
+    margin-top: 35px;
+}
+
+.fmedium{
+    font-weight:500;
+}
+
+  .vid-container
+    {
+        margin:10px 0px
+    }
+
+.fbold {
+    font-weight: 600;
+    color:#111;
+    margin-top:34px
+}
+
+footer ul {
+    padding-left: 0px;
+}
+
+footer li a {
+    color: #989898;
+    text-align: center;
+}
+
+footer li {
+    padding: 10px 20px;
+}
+
+    footer li a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+
+@media(max-width:767px) {
+    .content {
+        padding: 0px;
+        background: white;
+    }
+}
+
+@media(min-width:992px){
+    .about-text{
+        margin-top:40px
+    }
+}
+
+@media(max-width:1199px)
+{
+    .vid-container
+    {
+        margin:30px 0px
+    }
+
+}
+
+/*Altenate*/
+body{
+    background:#eeeeee !important;
+}
+
+.content{
+    background:white !important;
+    padding:0px !important;
+    box-shadow:0px 0px 2px 2px rgba(0, 0, 0, 0.050)
+}
+
+footer li a{
+    color:#555;
+}
+
+footer li a:hover{
+    color:#333
+}
